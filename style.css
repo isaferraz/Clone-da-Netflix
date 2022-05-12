@@ -1,0 +1,137 @@
+:root{
+    --red:#E50914;
+    --black:#141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color:#141414;
+  font-family:'Times New Roman', Times, serif
+}
+
+header .container{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    color:#f00c17;
+    font-family: 'Arial Black', 'Times New Roman', Times, serif;
+    font-size: 38px;
+}
+
+header nav a{
+    text-decoration: none;
+    color:#AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color:#fff;
+
+}
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url('https://ffw.uol.com.br/app/uploads/noticias/2018/01/peaky-alta-2-1200x675.jpg');
+
+    height: 400px;
+    background-size:cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    color:#AAA;
+    margin-bottom: 20px;
+    font-family:'Times New Roman', Times, serif;]
+    box-sizing: display: 30px;
+    
+}
+
+.titulo{
+    margin-top: 20px;
+   color:#fff;
+    font-style:initial;
+    font-size: 40px;
+}
+
+.botao{
+    color: white;
+    background-color: rgba(0,0,0,.50);
+    border: none;
+
+
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 11px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+a:link {
+    text-decoration: none;
+    }
+
+ .botao:hover{
+     background-color: white;
+     color: black;
+ }
+
+ .botao i{
+     margin-right: 8px;
+ }
+
+ .carrosel {
+    margin: top 0px;
+    margin-left: 30px;
+    block-size: 0px;
+ }
+
+ .carrosel2{
+  block-size: 0px;
+    margin-top: 0px;
+    margin-left: 300px;
+}
+
+.carrosel3{
+    margin-top: 0px;
+    margin-left: 550px;
+    block-size: 0px;
+}
+
+.carrosel4{
+    margin-top: 0px;
+    margin-left: 800px;
+    block-size: 0px;
+}
+
+.carrosel5{
+    margin-top: 0px;
+    margin-left: 1050px;
+    block-size: 0px;
+}
+
+.carrosel6{
+    margin-top: 0px;
+    margin-left: 1300px;
+    block-size: 0px;
+}
+  
+
+    
+
+ 
